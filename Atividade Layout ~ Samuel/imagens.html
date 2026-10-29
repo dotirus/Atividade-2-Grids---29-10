@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Imagens</title>
+    <link rel="stylesheet" href="grids.css">
+</head>
+<style>
+    .border {
+        border: 1px solid #313131
+    }
+
+    .margin{
+        margin-top: 20px;
+    }
+
+    .tamanito{
+        height: 153px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 border">
+                <h1>Imagens</h1>
+                <a href="index.html" style="text-decoration: none; color: black;">Home</a>
+            </div>
+        </div>
+        <div class="row gap-1 margin">
+            <div class="col-4 border"><img src="Nova pasta/7263a35f-1278-4ec0-91c3-5373f1c9af09.jpeg" class="img-responsive"></div>
+            <div class="col-8 border tamanito">Div sem espaçamento interno</div>
+        </div>
+        <div class="row gap-1 margin">
+            <div class="col-4 border"><img src="Nova pasta/pexi.webp" class="img-responsive" style="padding: 20px;"></div>
+            <div class="col-8 border tamanito">Div com espaçamento interno</div>
+        </div>
+        <div class="row gap-1 margin">
+            <div class="col-4 border" style="height: 153px;"><img src="Nova pasta/3fis.webp" class="img-fill"></div>
+            <div class="col-8 border tamanito">Div prenchendo tudo.</div>
+        </div>
+    </div>
+</body>
+
+</html>
